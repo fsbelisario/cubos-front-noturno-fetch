@@ -1,0 +1,45 @@
+* {
+  text-align: center;
+}
+
+body {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+input {
+  font-size: calc(10px + 1vmin);
+  margin-bottom: 50px;
+}
+
+.song-card {
+  width: 800px;
+  margin: 0 auto 5px 400px;
+  font-size: calc(10px + 1vmin);
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+img {
+  width: 100px;
+  height: auto;
+  margin-right: 15px;
+}
+
+.track-info {
+  margin-left: 0;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+b, span{
+  text-align: left;
+}
